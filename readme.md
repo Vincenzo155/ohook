@@ -94,9 +94,8 @@ reg add HKCU\Software\Microsoft\Office\16.0\Common\Licensing\Resiliency /v "Time
 
 使用本文方法激活后，如果使用命令查询激活状态，依旧显示未激活。如果上面两张图看明白了，就知道原因了——
 
-![](https://github.com/Vincenzo155/ohook/blob/principalis/Example/Images/07.png)
-
 【真激活】通常指的是采用微软钦定的正宗激活方式，比如：KMS、Retail/MAK密钥。
+
 【伪激活】只是文字上显示激活，实际上未激活，功能该不能用还是不能用。本文的方法，使用命令查询也是未激活状态，但从它的原理可知，是在Office启动过程中欺骗Office，因此它和真激活无区别。一言以蔽之，只要一打开Office，它就是激活的，只欺骗了Office，没有欺骗Windows，
 
 严格来说，本文的方法属于【破解】的范畴，它是真的解锁了Office的功能，并不是【伪激活】。如果微软不采取任何措施的话，此方式就是永久有效的。所以既不是【真激活】，也不是【伪激活】，是【真破解】😻
